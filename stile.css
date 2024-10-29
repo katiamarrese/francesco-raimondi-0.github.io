@@ -5,9 +5,7 @@ table th,td{
 
 body{
   background-color: lightblue;
+  margin : 20px;
 	}
 
-.hsq{
-	height: 80%;
-	width: 60%;
-}
+

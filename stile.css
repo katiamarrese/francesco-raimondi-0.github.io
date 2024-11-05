@@ -4,8 +4,24 @@ table th,td{
 }
 
 body{
-  background-color: lightblue;
+	
   margin : 20px;
+  background-image: url(hsq.jpg);
+  background-size:cover;
 	}
+	
+	.yamaha2{
+		height:210;
+		width:260;
+		margin:20px;
+	}
+	
+	.yamaha{
+		height: 210;
+		width: 300;
+		margin:20px;
+	}
+	
+	
 
 

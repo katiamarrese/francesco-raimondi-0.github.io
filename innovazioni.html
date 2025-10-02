@@ -1,99 +1,157 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Innovazioni Hardware 2025</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      margin: 20px;
-      background-color: #f4f4f4;
+      background-color: #f3f3f3;
       color: #333;
-    }
-    header, footer {
-      background-color: #222;
-      color: #fff;
-      padding: 10px;
-    }
-	 header h1, footer p {
       margin: 0;
+      padding: 0;
     }
-    main {
-      background-color: #fff;
+
+    header, footer {
+      background-color: #1e1e1e;
+      color: white;
+      text-align: center;
       padding: 20px;
-      border-radius: 5px;
     }
-    section {
-      margin-bottom: 30px;
+
+    main {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+      background-color: white;
     }
-    h2 {
+
+    h1, h2 {
       color: #0057e7;
     }
+
+    section {
+      margin-bottom: 50px;
+    }
+
     .highlight {
-      background-color: #e0f7fa;
-      padding: 10px;
-      border-left: 5px solid #00acc1;
+      background-color: #e7f4ff;
+      padding: 20px;
+      border-left: 6px solid #2196f3;
+      border-radius: 6px;
+    }
+
+    figure {
+      margin: 20px 0 0;
+      text-align: center;
+    }
+
+    img {
+      max-width: 100%;
+      border-radius: 5px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    figcaption {
+      font-size: 0.9em;
+      color: #555;
+      margin-top: 5px;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        font-size: 16px;
+      }
     }
   </style>
 </head>
 <body>
 
   <header>
-    <h1>Innovazioni Hardware nel 2025</h1>
+    <h1>Le Principali Innovazioni Hardware del 2025</h1>
+    <p>Un viaggio tra le tecnologie che stanno rivoluzionando il mondo digitale</p>
   </header>
 
   <main>
 
+    <!-- CPU -->
     <section>
-      <h2>CPU & SoC</h2>
+      <h2>1. Processori di nuova generazione</h2>
       <div class="highlight">
-        <h3>AMD Ryzen 9 9950X3D</h3>
-        <p>Basato su architettura Zen 5 con 16 core / 32 thread, frequenza boost fino a 5,7 GHz. Include la seconda generazione della tecnologia 3D V‑Cache, con circa 144 MB di cache L3, per migliorare le prestazioni soprattutto nei giochi e nel content creation. :contentReference[oaicite:0]{index=0}</p>
-      </div>
-      <div class="highlight">
-        <h3>MediaTek Dimensity 9500</h3>
-        <p>Chipset mobile con processo produttivo a 3 nm (terza generazione). Offre guadagni notevoli in performance e efficienza, con CPU ad alte prestazioni, GPU evoluta, e funzionalità AI su dispositivo. Supporta anche tecnologie di connettività avanzata come Wi-Fi 7. :contentReference[oaicite:1]{index=1}</p>
+        <p>L’AMD Ryzen 9 9950X3D ha rivoluzionato il settore desktop con l’architettura Zen 5, 16 core e la tecnologia 3D V‑Cache, portando prestazioni eccezionali nel gaming e nelle applicazioni professionali. MediaTek ha invece lanciato il Dimensity 9500 per dispositivi mobili con processo a 3 nm.</p>
+        <figure>
+          <img src="https://www.notebookcheck.it/fileadmin/Notebooks/News/_nc4/amd-has-unveiled-the-ryzen-9-9950X3D-and-ryzen-9-9900X3D-.png" alt="AMD Ryzen 9950X3D">
+          <figcaption>AMD Ryzen 9 9950X3D – Potenza desktop di nuova generazione</figcaption>
+        </figure>
       </div>
     </section>
 
+    <!-- GPU -->
     <section>
-      <h2>GPU & Grafica</h2>
+      <h2>2. Schede video e architetture grafiche</h2>
       <div class="highlight">
-        <h3>Architettura RDNA 4 di AMD</h3>
-        <p>Architettura grafica lanciata nel 2025 con la serie Radeon RX 9000. Miglioramenti in termini di efficienza, supporto a nuove API, migliore gestione della memoria e prestazioni elevate in FP16 / FP32. :contentReference[oaicite:2]{index=2}</p>
+        <p>La nuova architettura RDNA 4 di AMD, presente nella serie Radeon RX 9000, ha migliorato drasticamente l’efficienza energetica e le capacità di ray tracing. Pensata per gaming ad alte prestazioni, AI e rendering 3D avanzato.</p>
+        <figure>
+          <img src="https://media.overclock3d.net/2025/01/mlvKAyQa-AMD-RDNA-4.jpg" alt="AMD RDNA 4 GPU">
+          <figcaption>AMD RDNA 4 – La nuova generazione di potenza grafica</figcaption>
+        </figure>
       </div>
     </section>
 
+    <!-- AI -->
     <section>
-      <h2>Hardware per l’Intelligenza Artificiale & Data Center</h2>
+      <h2>3. Intelligenza Artificiale & Data Center</h2>
       <div class="highlight">
-        <h3>Huawei Atlas 950 SuperCluster</h3>
-        <p>Supercluster AI capace di 1 ZettaFLOPS in FP4 per inferenza, e 524 ExaFLOPS in FP8 per addestramento. Include centinaia di migliaia di acceleratori (APU) 950DT, distribuiti su moltissime unità, per affrontare modelli AI di grandi dimensioni. :contentReference[oaicite:3]{index=3}</p>
-      </div>
-      <div class="highlight">
-        <h3>Lightmatter – tecnologia fotonica</h3>
-        <p>Lightmatter ha presentato una nuova tecnologia per chips AI che usa connessioni ottiche (silicon photonics) al posto di segnali elettrici, per aumentare la velocità delle interconnessioni. Ha introdotto un “interposer” per chip AI nel 2025. :contentReference[oaicite:4]{index=4}</p>
+        <p>Il supercluster Huawei Atlas 950 ha superato 1 ZettaFLOPS per l’inferenza AI. Lightmatter ha introdotto chip AI fotonici, dove la luce sostituisce gli elettroni, aprendo a nuove velocità di interconnessione per il calcolo neurale.</p>
+        <figure>
+          <img src="https://www.huaweicentral.com/wp-content/uploads/2025/09/950-supernode-1000x576.jpg" alt="Supercomputer AI Huawei Atlas">
+          <figcaption>Supercomputer Huawei – Potenza AI per modelli di nuova scala</figcaption>
+        </figure>
       </div>
     </section>
 
+    <!-- Dispositivi -->
     <section>
-      <h2>Periferiche & Dispositivi Innovativi</h2>
+      <h2>4. Dispositivi mobili e consumer tech</h2>
       <div class="highlight">
-        <h3>Samsung Galaxy S25 Series</h3>
-        <p>Serie flagship annunciata nel 2025. Tra le varie migliorie: schermi più sottili (il modello Edge è il più sottile mai prodotto nella serie Galaxy), materiali migliorati, nuove versioni con funzionalità avanzate. :contentReference[oaicite:5]{index=5}</p>
+        <p>Samsung ha lanciato la serie Galaxy S25 con materiali innovativi e design ultrasottile. All’IFA 2025 sono stati presentati handheld da gaming modulari, laptop AI-ready e stampanti 3D ad altissima risoluzione.</p>
+        <figure>
+          <img src="https://www.notebookcheck.it/fileadmin/Notebooks/News/_nc4/s25-series-rumours.jpg" alt="Samsung Galaxy S25">
+          <figcaption>Galaxy S25 – Smartphone futuristico con funzioni AI integrate</figcaption>
+        </figure>
       </div>
+    </section>
+
+    <!-- Memorie -->
+    <section>
+      <h2>5. Memorie e Storage</h2>
       <div class="highlight">
-        <h3>Prodotti in evidenza da IFA 2025</h3>
-        <p>Durante IFA 2025 sono stati presentati vari dispositivi notevoli, come laptop AI‑centrici, monitor OLED super‑veloci, stazioni docking potenti, handheld da gaming con controlli staccabili, e un 3D printer a resina ad altissima risoluzione. :contentReference[oaicite:6]{index=6}</p>
+        <p>SSD PCIe 5.0 hanno raggiunto velocità di oltre 14 GB/s, mentre i moduli DDR5-8800 e HBM4 hanno spinto l’asticella più in alto nel mondo server e AI. Le prestazioni delle memorie sono ora un fattore chiave in ogni settore hardware.</p>
+        <figure>
+          <img src="https://it.crucial.com/content/dam/crucial/ssd-products/t700/images/web/crucial-T700-ssd-dual-dynamic-hero-image.psd.transform/small-png/img.png" alt="SSD Samsung PCIe 5.0">
+          <figcaption>SSD PCIe 5.0 – Velocità estreme per gamer e professionisti</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Tecnologie emergenti -->
+    <section>
+      <h2>6. Tecnologie emergenti</h2>
+      <div class="highlight">
+        <p>Nel 2025 sono stati presentati chip neuromorfici ispirati al cervello umano e computer quantistici da oltre 1000 qubit. Queste tecnologie promettono rivoluzioni nei campi della medicina, simulazioni scientifiche e sicurezza informatica.</p>
+        <figure>
+          <img src="https://www.ibm.com/quantum/_next/image?url=https%3A%2F%2Fresearch-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud%2FIBM_Quantum_System_One_Fraunhofer_leadspace_093382792d.jpg&w=3840&q=75" alt="Quantum Computer IBM Q">
+          <figcaption>IBM Q System One – L’avanguardia del calcolo quantistico</figcaption>
+        </figure>
       </div>
     </section>
 
   </main>
 
   <footer>
-    <p>&copy; 2025 Innovazione Hardware. Francesco Raimondi</p>
+    <p>&copy; 2025 Innovazioni Hardware | Creato da Francesco Raimondi</p>
   </footer>
-  
+
 </body>
 </html>
